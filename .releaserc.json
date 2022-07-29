@@ -1,3 +1,17 @@
 {
-    "branches": ["main"]
+    "branches": [
+        "main"
+    ],
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        {
+            "preset": "conventionalcommits",
+            "releaseRules": [
+                {
+                    "type": "*!",
+                    "release": "major"
+                }
+            ]
+        }
+    ]
 }
