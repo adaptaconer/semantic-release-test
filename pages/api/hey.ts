@@ -9,5 +9,5 @@ export default function heyHandler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  res.status(200).json({ name: 'John Doe' })
+  res.status(200).json({ name: 'Bilbo Baggins' })
 }
