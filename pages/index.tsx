@@ -7,6 +7,9 @@ const Home: NextPage = () => {
 
   // some other beta feature added
 
+
+  // some alpha feature added from beta
+
   return (
     <div className={styles.container}>
       <Head>
